@@ -1,6 +1,6 @@
 (defproject testing "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "Experimenting with Clojurescript"
+  :url "http://example.com/experimenting"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.671"]]
   :jvm-opts ^:replace ["-Xmx1g" "-server"]
