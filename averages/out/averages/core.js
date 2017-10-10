@@ -18,5 +18,16 @@ return Math.sqrt((a * b));
 averages.core.harmonic = (function averages$core$harmonic(a,b){
 return ((2) / (((1) / a) + ((1) / b)));
 });
+averages.core.float_value = (function averages$core$float_value(id){
+return window.parseFloat(domina.value.call(null,domina.by_id.call(null,id)));
+});
+averages.core.calculate_means = (function averages$core$calculate_means(evt){
+domina.set_text_BANG_.call(null,domina.by_id.call(null,"arithmetic"),averages.core.arithmetic.call(null,averages.core.float_value.call(null,"A"),averages.core.float_value.call(null,"B")));
+
+domina.set_text_BANG_.call(null,domina.by_id.call(null,"geometric"),averages.core.geometric.call(null,averages.core.float_value.call(null,"A"),averages.core.float_value.call(null,"B")));
+
+return domina.set_text_BANG_.call(null,domina.by_id.call(null,"harmonic"),averages.core.harmonic.call(null,averages.core.float_value.call(null,"A"),averages.core.float_value.call(null,"B")));
+});
+domina.events.listen_BANG_.call(null,domina.by_id.call(null,"calculate"),"click",averages.core.calculate_means);
 
 //# sourceMappingURL=core.js.map
