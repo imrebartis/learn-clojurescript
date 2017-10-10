@@ -8,4 +8,11 @@
 
 (enable-console-print!)
 
-(println "Hello world!")
+(defn arithmetic [a b]
+  (/ (+ a b) 2.0))
+
+(defn geometric [a b]
+  (.sqrt js/Math (* a b)))
+
+(defn harmonic [a b]
+  (/ 2 (+ (/ 1 a) (/ 1 b))))
