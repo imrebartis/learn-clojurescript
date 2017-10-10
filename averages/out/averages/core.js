@@ -1,6 +1,8 @@
 // Compiled by ClojureScript 0.0-3169 {}
 goog.provide('averages.core');
 goog.require('cljs.core');
+goog.require('domina.events');
+goog.require('domina');
 goog.require('clojure.browser.repl');
 if(typeof averages.core.conn !== 'undefined'){
 } else {
