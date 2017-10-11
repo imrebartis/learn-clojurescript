@@ -16,7 +16,16 @@
    :Lima ["Perú" 8693387 [-12.05 -77.04]]})
 
 (defn create-row [item]
+  ;; destructuring:
   (let [[city [country population [lat lon]]] item]
+    ;; old code:
+
+     ;;(let [city (first item)
+     ;; info (last item)
+     ;; country (first info)
+     ;; population (nth info 1)
+     ;; lat (first (nth info 2))
+     ;; lon (last (nth info 2))]
     (str "<tr><td>"
          (cstr/join "</td><td>"
                      [(name city) country population

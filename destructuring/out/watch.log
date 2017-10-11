@@ -8,3 +8,6 @@ Reading analysis cache for jar:file:/Users/imre.bartis/.m2/repository/org/clojur
 Reading analysis cache for jar:file:/Users/imre.bartis/.m2/repository/domina/domina/1.0.3/domina-1.0.3.jar!/domina.cljs
 Reading analysis cache for jar:file:/Users/imre.bartis/.m2/repository/domina/domina/1.0.3/domina-1.0.3.jar!/domina/events.cljs
 ... done. Elapsed 0.157316341 seconds
+Change detected, recompiling ...
+Compiling src/destructuring/core.cljs
+... done. Elapsed 0.075667986 seconds
