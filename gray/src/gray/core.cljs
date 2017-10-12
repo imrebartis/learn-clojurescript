@@ -28,6 +28,34 @@
 
   (swap! rgb assoc :r 64 :b 192) ;; => {:r 64, :g 128, :b 192}
 
-
   )
+
+(defonce gray (atom 128))
+
+(defn gray-changer [event]
+  (reset! gray (.-value (.-target event))))
+
+(defn gray-input []
+  [:input {:type "tet"
+           :size "5"
+           :on-change gray-changer
+           :value @gray}])
+
+(defn gray-rect []
+  [:div {:style
+         {:width "50%"
+          :margin "0.5em auto"
+          :height "150px"
+          :background-color (str "rgb(" @gray "," @gray "," @gray ")")
+          :border "1px solid black"}} " "])
+
+(defn para []
+  [:p "Enter a number btw 0 and 255." [:small "(0=black, 255=white)"]])
+
+(defn interface []
+  [:div
+   [para]
+   [gray-input]
+   [gray-rect]])
+ (reagent/render-component [interface] (.getElementById js/document "dynamic"))
 
