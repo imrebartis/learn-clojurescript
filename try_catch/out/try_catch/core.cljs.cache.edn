@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 0.0-3169
+{:use-macros nil, :excludes #{}, :name try_catch.core, :imports nil, :requires {clojure.browser.repl clojure.browser.repl, repl clojure.browser.repl}, :uses nil, :defs {conn {:file "src/try_catch/core.cljs", :meta {:file nil, :end-column 14, :end-line 4, :column 10, :line 4}, :line 4, :column 1, :end-line 4, :end-column 14, :test true, :name try_catch.core/conn}}, :require-macros nil, :cljs.analyzer/constants {:order [:else], :seen #{:else}}, :doc nil}

@@ -1,0 +1,405 @@
+Building ...
+... done. Elapsed 0.050803435 seconds
+Watching path: src
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 10 src/try_catch/core.cljs
+... done. Elapsed 0.06944029 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.047993635 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.055579344 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: EOF while reading, starting at line 9 and column 1 {:column 1, :line 27, :type :reader-exception}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:336)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:172)
+	at clojure.tools.reader$read_list.invoke(reader.clj:177)
+	at clojure.tools.reader$read.invoke(reader.clj:743)
+	at clojure.tools.reader$read.invoke(reader.clj:729)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495$fn__1496.invoke(analyzer.clj:1981)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495.invoke(analyzer.clj:1975)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:484)
+	at clojure.core$seq.invoke(core.clj:133)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1008)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: EOF while reading, starting at line 9 and column 1 {:column 1, :line 27, :type :reader-exception}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:336)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:172)
+	at clojure.tools.reader$read_list.invoke(reader.clj:177)
+	at clojure.tools.reader$read.invoke(reader.clj:743)
+	at clojure.tools.reader$read.invoke(reader.clj:729)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495$fn__1496.invoke(analyzer.clj:1981)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495.invoke(analyzer.clj:1975)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:484)
+	at clojure.core$seq.invoke(core.clj:133)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1008)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Invalid try form at line 9 src/try_catch/core.cljs {:tag :cljs/analysis-error, :file "src/try_catch/core.cljs", :line 9, :column 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.analyzer$error.invoke(analyzer.clj:379)
+	at cljs.analyzer$error.invoke(analyzer.clj:376)
+	at cljs.analyzer$fn__978$fn__989.invoke(analyzer.clj:735)
+	at cljs.analyzer$fn__978.invoke(analyzer.clj:721)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:249)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.clj:1845)
+	at cljs.analyzer$analyze$fn__1482.invoke(analyzer.clj:1937)
+	at cljs.analyzer$analyze.invoke(analyzer.clj:1930)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1010)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Invalid try form at line 9 src/try_catch/core.cljs {:tag :cljs/analysis-error, :file "src/try_catch/core.cljs", :line 9, :column 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.analyzer$error.invoke(analyzer.clj:379)
+	at cljs.analyzer$error.invoke(analyzer.clj:376)
+	at cljs.analyzer$fn__978$fn__989.invoke(analyzer.clj:735)
+	at cljs.analyzer$fn__978.invoke(analyzer.clj:721)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:249)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.clj:1845)
+	at cljs.analyzer$analyze$fn__1482.invoke(analyzer.clj:1937)
+	at cljs.analyzer$analyze.invoke(analyzer.clj:1930)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1010)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Invalid try form at line 9 src/try_catch/core.cljs {:tag :cljs/analysis-error, :file "src/try_catch/core.cljs", :line 9, :column 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.analyzer$error.invoke(analyzer.clj:379)
+	at cljs.analyzer$error.invoke(analyzer.clj:376)
+	at cljs.analyzer$fn__978$fn__989.invoke(analyzer.clj:735)
+	at cljs.analyzer$fn__978.invoke(analyzer.clj:721)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:249)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.clj:1845)
+	at cljs.analyzer$analyze$fn__1482.invoke(analyzer.clj:1937)
+	at cljs.analyzer$analyze.invoke(analyzer.clj:1930)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1010)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Invalid try form at line 9 src/try_catch/core.cljs {:tag :cljs/analysis-error, :file "src/try_catch/core.cljs", :line 9, :column 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.analyzer$error.invoke(analyzer.clj:379)
+	at cljs.analyzer$error.invoke(analyzer.clj:376)
+	at cljs.analyzer$fn__978$fn__989.invoke(analyzer.clj:735)
+	at cljs.analyzer$fn__978.invoke(analyzer.clj:721)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:249)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.clj:1845)
+	at cljs.analyzer$analyze$fn__1482.invoke(analyzer.clj:1937)
+	at cljs.analyzer$analyze.invoke(analyzer.clj:1930)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1010)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Invalid try form at line 9 src/try_catch/core.cljs {:tag :cljs/analysis-error, :file "src/try_catch/core.cljs", :line 9, :column 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.analyzer$error.invoke(analyzer.clj:379)
+	at cljs.analyzer$error.invoke(analyzer.clj:376)
+	at cljs.analyzer$fn__978$fn__989.invoke(analyzer.clj:735)
+	at cljs.analyzer$fn__978.invoke(analyzer.clj:721)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:249)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.clj:1845)
+	at cljs.analyzer$analyze$fn__1482.invoke(analyzer.clj:1937)
+	at cljs.analyzer$analyze.invoke(analyzer.clj:1930)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1010)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.050756221 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.041705729 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/catch at line 28 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/error at line 28 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/error at line 29 src/try_catch/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/try_catch/core.cljs {:file #<File src/try_catch/core.cljs>}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1124)
+	at cljs.compiler$compile_file.invoke(compiler.clj:1092)
+	at cljs.compiler$compile_root.invoke(compiler.clj:1154)
+	at cljs.closure$compile_dir.invoke(closure.clj:369)
+	at cljs.closure$fn__2737.invoke(closure.clj:409)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$fn__2730.invoke(closure.clj:423)
+	at cljs.closure$fn__2687$G__2682__2694.invoke(closure.clj:316)
+	at cljs.closure$build.invoke(closure.clj:1415)
+	at cljs.closure$watch$buildf__3038.invoke(closure.clj:1502)
+	at cljs.closure$watch.invoke(closure.clj:1549)
+	at cljs.repl$repl_STAR_$fn__3476$fn__3479.invoke(repl.clj:818)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: clojure.lang.ExceptionInfo: Unmatched delimiter ) {:column 27, :line 29, :type :reader-exception}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:336)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_unmatched_delimiter.invoke(reader.clj:66)
+	at clojure.tools.reader$read.invoke(reader.clj:743)
+	at clojure.tools.reader$read.invoke(reader.clj:729)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495$fn__1496.invoke(analyzer.clj:1981)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___1494$fn__1495.invoke(analyzer.clj:1975)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:484)
+	at clojure.core$seq.invoke(core.clj:133)
+	at cljs.compiler$compile_file_STAR_$fn__2391.invoke(compiler.clj:1008)
+	at cljs.compiler$with_core_cljs.invoke(compiler.clj:951)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.clj:971)
+	at cljs.compiler$compile_file$fn__2423.invoke(compiler.clj:1109)
+	... 14 more
+
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.043669578 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.043674131 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/have at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/a at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/value at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/out at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/of at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.049412622 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/have at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/a at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/value at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/out at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/of at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/valid' at line 32 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/blah at line 11 src/try_catch/core.cljs
+... done. Elapsed 0.041530207 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/have at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/a at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/value at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/out at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/of at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/valid' at line 32 src/try_catch/core.cljs
+... done. Elapsed 0.045132186 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/bad at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/syntax' at line 26 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/have at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/a at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/value at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/out at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/of at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/valid' at line 32 src/try_catch/core.cljs
+... done. Elapsed 0.046082082 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/have at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/a at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/value at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/out at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/of at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/range' at line 29 src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/valid' at line 32 src/try_catch/core.cljs
+... done. Elapsed 0.046854236 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.045170816 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.044963423 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.04498308 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+WARNING: Use of undeclared Var try_catch.core/finally at line 37 src/try_catch/core.cljs
+... done. Elapsed 0.044264053 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.055132223 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.044735145 seconds
+Change detected, recompiling ...
+Compiling src/try_catch/core.cljs
+... done. Elapsed 0.053991172 seconds
