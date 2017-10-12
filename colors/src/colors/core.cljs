@@ -1,10 +1,10 @@
 (ns colors.core
-  (:require [clojure.browser.repl :as repl]
+  (:require ;; [clojure.browser.repl :as repl]
             [reagent.core :as reagent :refer [atom]]
             [goog.color :as color]))
 
-(defonce conn
-  (repl/connect "http://localhost:9000/repl"))
+;; (defonce conn
+ ;; (repl/connect "http://localhost:9000/repl"))
 
 (enable-console-print!)
 
